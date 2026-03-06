@@ -1,0 +1,14 @@
+Dataset,Category,Rows,Columns,Memory_MB,Has_RID,Has_PTID,Has_VISCODE,Has_VISCODE2,Has_PHASE,Unique_RID,Missing_Pct,Sparse_Cols
+AMYMETA_13Feb2026,amyloid_pet,3038,38,1.6,True,True,True,True,True,1643,32.08,12
+AMYQC_13Feb2026,amyloid_pet,2873,27,1.78,True,True,True,True,True,1573,39.46,12
+BAIPETNMRCAV45_10_23_20_13Feb2026,amyloid_pet,2815,13,1.0,True,False,True,True,False,1294,1.9,0
+BAIPETNMRCFDG_12_11_20_13Feb2026,fdg_pet,3684,14,1.19,True,False,True,True,False,1610,0.0,0
+CROSSVAL_13Feb2026,pet_metadata,822,5,0.1,True,False,False,False,False,822,0.0,0
+NYUFDGHIP_13Feb2026,fdg_pet,612,16,0.16,True,True,True,False,True,343,0.03,0
+PETMETA_ADNI1_13Feb2026,pet_metadata,1957,104,1.94,True,True,True,True,True,420,62.63,70
+PETQC_13Feb2026,pet_metadata,3951,38,2.86,True,True,True,True,False,1413,26.8,10
+TAUMETA_13Feb2026,tau_pet,3150,39,1.68,True,True,True,True,True,1655,38.25,14
+TAUQC_13Feb2026,tau_pet,2670,28,1.58,True,True,True,True,True,1541,42.15,13
+UCBERKELEYFDG_8mm_02_17_23_13Feb2026,fdg_pet,7524,10,1.57,True,False,True,True,False,1687,0.03,0
+UCBERKELEY_TAUPVC_6MM_13Feb2026,tau_pet,2106,335,5.9,True,True,True,True,False,1230,2.7,7
+UCBERKELEY_TAU_6MM_13Feb2026,tau_pet,2327,339,6.69,True,True,True,True,False,1357,5.33,4

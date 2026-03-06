@@ -1,10 +1,5 @@
-# Raw ADNI data files — never commit patient data to a public repo
-*.csv
-*.xlsx
-*.xls
-
-# Zip archives
-*.zip
+# ADNI EDA Project - Updated .gitignore
+# Removed CSV and ZIP ignores to allow committing datasets as requested by USER
 
 # Python cache & compiled files
 __pycache__/
@@ -23,18 +18,13 @@ env/
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Generated output (tables, figures, reports) - updated path
-adni_eda_project/output/
-adni_eda_project/data/
-adni_eda_visualizations/
-adni_pet_visualizations/
-
-# Archive/Backup folders
-archive/
-
 # macOS housekeeping
 .DS_Store
 
 # IDE settings
 .vscode/
 .idea/
+
+# GitHub hard limit for a single file is 100MB.
+# This archive exceeds that and will cause the push to fail.
+archive/ADNI .zip
