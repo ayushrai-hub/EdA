@@ -23,10 +23,14 @@ env/
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Generated output (tables, figures, reports)
+# Generated output (tables, figures, reports) - updated path
 adni_eda_project/output/
+adni_eda_project/data/
 adni_eda_visualizations/
 adni_pet_visualizations/
+
+# Archive/Backup folders
+archive/
 
 # macOS housekeeping
 .DS_Store

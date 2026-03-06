@@ -24,7 +24,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 
 # Where the raw ADNI CSV files are stored.
 # Change this to wherever you downloaded the data.
-DATA_DIR = Path('/mnt/okcomputer/upload')
+DATA_DIR = PROJECT_ROOT / 'data' / 'raw'
 
 # Where all output (tables, figures, reports) is written
 OUTPUT_DIR = PROJECT_ROOT / 'output'
